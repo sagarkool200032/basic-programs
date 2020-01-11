@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Cpp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Cpp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Cpp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="+ElementsArray.cpp" />
+		<Unit filename="+Matrix.cpp" />
+		<Unit filename="2DArray.cpp" />
+		<Unit filename="Add2NumsFn.cpp" />
+		<Unit filename="AreaOfCircle.cpp" />
+		<Unit filename="Armstrong.cpp" />
+		<Unit filename="AverageArray.cpp" />
+		<Unit filename="BillAmount.cpp" />
+		<Unit filename="BinarySearch.cpp" />
+		<Unit filename="CheckPrimeNum.cpp" />
+		<Unit filename="DayName.cpp" />
+		<Unit filename="DisplayDigitNumber.cpp" />
+		<Unit filename="DynamicAllocation.cpp" />
+		<Unit filename="FactorialOfNum.cpp" />
+		<Unit filename="FactorsOfNum.cpp" />
+		<Unit filename="FnLinearSearch.cpp" />
+		<Unit filename="GDC.cpp" />
+		<Unit filename="LeapYear.cpp" />
+		<Unit filename="LinearSearch.cpp" />
+		<Unit filename="MaxOf2Nos.cpp" />
+		<Unit filename="MulMatrix.cpp" />
+		<Unit filename="MultiplicationTable.cpp" />
+		<Unit filename="NatureOfRoots.cpp" />
+		<Unit filename="NetSalary.cpp" />
+		<Unit filename="PowFn.cpp" />
+		<Unit filename="ReverseOfNum.cpp" />
+		<Unit filename="SumOfNnum.cpp" />
+		<Unit filename="SwitchDay.cpp" />
+		<Unit filename="addition.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="rootsOfQuad.cpp" />
+		<Unit filename="sumOfN.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
