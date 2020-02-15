@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int main36()
+int main()
 {
 
     int *p=new int[20];
