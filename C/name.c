@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-int main4()
+int main()
 {
   char *ptr = NULL;
   int words;
   printf("Total Words in your name: ");
   scanf("%d",&words);
   char str[words][30];
-  int c=0,ct=-1;
+  int c=0,ct=0;
   printf("Enter Full Name:");
   for(int i=0;i<words;i++)
   {
@@ -19,7 +19,6 @@ int main4()
   {
     if(i==(c-1))
     {
-        ct++;
         break;
     }
     ptr = str[i];
@@ -29,7 +28,7 @@ int main4()
   }
     int l=strlen(str[ct]);
     ptr=str[ct];
-    for(int i=0;i<l;i++)
+    while(*ptr)
     {
         printf("%c",*ptr);
         ptr++;
