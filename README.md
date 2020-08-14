@@ -1,4 +1,4 @@
 # basic-programs
-Basic programs of Python, Cpp, C
+Basic programs of Python, Cpp, C, Java
 #
-Will add more in future  ......
+Will be adding more in future  ......
