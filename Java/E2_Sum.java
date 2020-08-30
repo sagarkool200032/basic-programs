@@ -1,4 +1,4 @@
-class Sum
+class E2_Sum
 {
       public static void main(String args[])
       {

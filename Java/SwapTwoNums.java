@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class SwapTwoNums {
-
     public static void main(String args[]){
         int num1,num2;
         Scanner input = new Scanner(System.in);
@@ -11,8 +10,7 @@ public class SwapTwoNums {
         num2 = num1+num2-(num1=num2);
         System.out.println("Number1: "+num1+"\nNumber2: "+num2);
         input.close();
-    }
-    
+    }   
 }
 
 
