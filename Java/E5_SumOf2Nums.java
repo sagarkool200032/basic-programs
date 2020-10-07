@@ -17,7 +17,7 @@ class Sum{
     }
 }
 
-public class SumOf2Nums {
+public class E5_SumOf2Nums {
   
   public static void main(String args[]){
       int num1,num2;

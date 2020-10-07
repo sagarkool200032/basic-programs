@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumOf2NumsStatic {
+public class E6_SumOf2NumsStatic {
     static int n1,n2=50,ans;
     
     static void  setNums(int num1){
